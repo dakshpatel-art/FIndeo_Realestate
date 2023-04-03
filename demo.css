@@ -1,0 +1,67 @@
+.title {
+    margin-top: 55px;
+    margin-bottom: 35px;
+    color: #333;
+}
+
+.prize {
+    position: absolute;
+    top: 176px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.prize p {
+    margin-bottom: 0;
+    color: white;
+}
+
+.prize p:first-child {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.decoration {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 210px;
+    right: 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+.decoration i:first-child {
+    margin-right: 10px;
+}
+
+.list-group {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom, #f9f9f9 0%, #f6f6f6);
+}
+
+.cat {
+    display: flex;
+    flex-direction: column;
+}
+
+.cat p {
+    display: flex;
+    margin: 0;
+}
+
+.cat p:first-child {
+    color: #909090;
+}
+
+.card-body p {
+    color: #909090;
+}
+
+.card-body a {
+    color: #909090;
+}
